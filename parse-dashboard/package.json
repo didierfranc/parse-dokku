@@ -1,0 +1,27 @@
+{
+  "name": "parse-dashboard-dokku",
+  "version": "1.0.1",
+  "description": "Deploy Parse Dashboard to Heroku",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/didierfranc/parse-dokku.git"
+  },
+  "keywords": [
+    "parse",
+    "dashboard",
+    "dokku"
+  ],
+  "author": "Didier Franc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/didierfranc/parse-dokku/issues"
+  },
+  "homepage": "https://github.com/didierfranc/parse-dokku#readme",
+  "dependencies": {
+    "parse-dashboard": "^1.0.10"
+  },
+  "scripts": {
+    "start": "parse-dashboard --config config.json --allowInsecureHTTP=1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "serverURL": "parseServerURL",
+      "appId": "yourAppId",
+      "masterKey": "yourMasterKey",
+      "appName": "appName",
+      "production": true
+    }
+  ],
+  "users": [
+    {
+      "user":"username",
+      "pass":"password"
+    }
+  ]
+}
