@@ -1,0 +1,7 @@
+{
+  "appId" : "yourAppId",
+  "masterKey" : "yourMasterKey",
+  "port" : "5000",
+  "databaseURI": "yourMongoDatabaseURI",
+  "mountPath": "/"
+}

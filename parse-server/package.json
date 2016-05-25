@@ -1,0 +1,27 @@
+{
+  "name": "parse-server-dokku",
+  "version": "1.0.0",
+  "description": "Deploy Parse Server to Heroku",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/didierfranc/parse-dokku.git"
+  },
+  "keywords": [
+    "parse",
+    "server",
+    "heroku"
+  ],
+  "author": "Didier Franc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/didierfranc/parse-dokku/issues"
+  },
+  "homepage": "https://github.com/didierfranc/parse-dokku#readme",
+  "dependencies": {
+    "parse-server": "^2.2.7"
+  },
+  "scripts": {
+    "start": "parse-server -- config.json"
+  }
+}
