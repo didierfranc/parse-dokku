@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/didierfranc/parse-dokku#readme",
   "dependencies": {
-    "parse-dashboard": "^1.0.10"
+    "parse-dashboard": "^1.0.12"
   },
   "scripts": {
     "start": "parse-dashboard --config config.json --allowInsecureHTTP=1"
