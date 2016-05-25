@@ -5,10 +5,9 @@ Deploy parse-server and parse-dashboard to your Dokku instance
 
 Edit `repo.txt`, `config.json` and [`push`](https://github.com/didierfranc/dokku-client-cli) the app to your Dokku instance
 
-Example with **parse-server**:
 
-```
-cd parse-server
+```js
+cd parse-server // or `cd parse-dashboard`
 push
 ```
 
